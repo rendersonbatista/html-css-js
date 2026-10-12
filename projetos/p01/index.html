@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>logo</h1>
-
-        <nav>
-            <a href="">test</a>
-            <a href="">test</a>
-            <a href="">test</a>
-        </nav>
+    <header id="header">
+        <h1>Lista de Tarefas</h1>
     </header>
 
-    <main>
-        <section>
+    <main id="main">
+        <section id="areaForm">
+            <div>
+                <input type="text" name="ipTarefa" id="ipTarefa" placeholder="Digite uma tarefa:">
+                <button id="btConfirmar">Confirmar tarefa</button>
+            </div>
             
+
+        </section>
+
+        <section id="areaResult">
+            <div id="cardTarefa">
+                <p>Nem um resultado de tarefa registrada no momento.</p>
+            </div>
         </section>
     </main>
+    <script src="main.js" defer></script>
 </body>
 </html>
