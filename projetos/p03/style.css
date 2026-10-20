@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Quando o e-mail for válido e não estiver vazio */
+input[type="email"]:valid {
+  border: 2px solid #2ecc71; /* Borda Verde */
+}
+
+/* Quando o usuário começar a digitar e o formato estiver errado */
+input[type="email"]:invalid:not(:placeholder-shown) {
+  border: 2px solid #e74c3c; /* Borda Vermelha */
+}

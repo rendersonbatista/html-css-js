@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Formulário de cor (color)-->
+    <input type="color" id="ipColor">
+
+    <!--Fomulário de senha com checkbox-->
+    <input type="password" id="ipSenha" placeholder="Digite a sua senha">
+    <input type="checkbox" id="mostrarSenha">
+    <label for="mostrarSenha">Mostrar senha</label>
+
+    <!--formulário Email-->
+    <input type="email" required id="email"
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Digite seu email">
+
+    <!--Formulário URl-->
+    <label for="url">Digite uma URL:</label>
+    <input type="url" id="url" placeholder="https://exemplo.com">
+    <a href="http://" id="linkUrl" target="_blank" rel="noopener noreferrer">
+        <p id="textLink">http://exemplo.com</p>
+    </a>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
