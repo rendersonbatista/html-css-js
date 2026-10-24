@@ -1,0 +1,20 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: rgb(42, 106, 165);
+    color: whitesmoke;
+}
+
+li {
+    background-color: rgb(206, 252, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newCard {
+    background-color: greenyellow;
+    
+}
